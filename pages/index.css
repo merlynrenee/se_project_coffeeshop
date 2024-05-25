@@ -145,7 +145,7 @@
   line-height: 30px;
 }
 
-.recipe__videos {
+.recipes__videos {
   display: flex;
   flex-direction: row;
   gap: 40px;
