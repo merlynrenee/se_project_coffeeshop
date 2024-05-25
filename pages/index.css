@@ -61,7 +61,7 @@
   letter-spacing: -0.6px;
 }
 
-.header__title_span-accent {
+.header__title__span-accent {
   color: #2f80ed;
   display: block;
   font-family: "Noto Serif";
@@ -161,7 +161,7 @@
   margin: 0;
 }
 
-.recipes_video-caption {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
   margin: 24px 0 0;
