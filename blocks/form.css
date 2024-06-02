@@ -34,7 +34,7 @@
   padding: 20px;
   border-width: 1px;
   border-style: solid;
-  border-color: black;
+  border-color: #000000;
 }
 
 .form__button {
@@ -58,14 +58,10 @@
 .form__button:hover {
   opacity: 0.7;
 }
-.checkbox__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .form__label_type_checkbox {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
