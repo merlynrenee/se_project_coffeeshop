@@ -7,6 +7,7 @@
   }
   100% {
     opacity: 0;
+    transform: scale(1.2, 1.2);
   }
 }
 
@@ -36,7 +37,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -60,7 +61,5 @@
 }
 
 .about__circle_animation_blurred {
-  opacity: 0;
   animation: pulsate 1.3s ease-in-out infinite;
-  transform: scale(1.2, 1.2);
 }
