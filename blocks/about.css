@@ -6,7 +6,7 @@
     opacity: 0.6;
   }
   100% {
-    transform: scale(1.2, 1.2);
+    opacity: 0;
   }
 }
 
@@ -21,10 +21,8 @@
 .about__title {
   max-width: 251px;
   color: #ffffff;
-  position: relative;
-  top: 100px;
-  left: 80px;
-  font-family: "Inter";
+  margin: 100px 0 0 80px;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -62,14 +60,7 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  z-index: -1;
-  border-radius: 50%;
   opacity: 0;
   animation: pulsate 1.3s ease-in-out infinite;
+  transform: scale(1.2, 1.2);
 }

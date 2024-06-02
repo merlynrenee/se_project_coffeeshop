@@ -17,7 +17,7 @@
 
 .footer__social-heading {
   margin: 0 0 20px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -32,7 +32,7 @@
   list-style: none;
   gap: 16px;
   text-decoration: none;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -45,6 +45,7 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+  transition: color 0.5s ease-in;
 }
 
 .footer__social-icon {
@@ -55,12 +56,11 @@
 .footer__copyright {
   padding: 0 0 60px 80px;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  transition: color 0.5s ease-in;
 }
 
 .footer__social-link:hover {
